@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco - Chacell</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="home">
+        <div class="container">
+            <a href="index.html"><img src="img/logo.png" alt="Chacell"></a>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quem-somos.html">Quem Somos</a></li>
+                <li><a href="destaques.html">Destaques</a></li>
+                <li><a href="sac.html">SAC</a></li>
+                <li><a href="localizacao.html">Localização</a></li>
+                <li><a href="fale-conosco.html">Fale Conosco</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container fale-conosco-page">
+        <div class="fale-intro">
+            <h1>Fale Conosco</h1>
+        </div>
+
+        <div class="fale-divider"></div>
+
+        <div class="fale-content">
+            <form id="formContato" class="form-contato" novalidate>
+                <div class="campo">
+                    <label for="nomeContato">Nome</label>
+                    <input type="text" id="nomeContato" name="nomeContato" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="enderecoContato">Endereço</label>
+                    <input type="text" id="enderecoContato" name="enderecoContato" placeholder="Digite seu endereço" required>
+                </div>
+
+                <div class="campo">
+                    <label for="emailContato">E-mail</label>
+                    <input type="email" id="emailContato" name="emailContato" placeholder="seuemail@exemplo.com" required>
+                </div>
+
+                <div class="campo">
+                    <label for="telefoneContato">Telefone</label>
+                    <input type="tel" id="telefoneContato" name="telefoneContato" placeholder="(99) 99999-9999" required>
+                </div>
+
+                <div class="campo">
+                    <label for="mensagemContato">Mensagem</label>
+                    <textarea id="mensagemContato" name="mensagemContato" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="container footer-grid">
+            <div class="footer-bottom">
+                <p>© 2026 Chacell - Telefones reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
